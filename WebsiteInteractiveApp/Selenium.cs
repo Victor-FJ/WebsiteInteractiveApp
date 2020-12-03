@@ -93,11 +93,6 @@ namespace WebsiteInteractiveApp
 
                     }
 
-                    void JavaScriptClick(IWebElement element)
-                    {
-                        IJavaScriptExecutor executor = (IJavaScriptExecutor)_driver;
-                        executor.ExecuteScript("document.querySelector(\"#info3 > div.infoboxtitle\").click();", element);
-                    }
 
 
                 }
