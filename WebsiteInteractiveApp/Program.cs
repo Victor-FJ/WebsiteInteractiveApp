@@ -18,7 +18,6 @@ namespace WebsiteInteractiveApp
                 Console.WriteLine("People are " + (driver.IsClassInSchool() ? "" : "not ") + "in school today");
                 Console.WriteLine("\n");
             }
-            driver.Dispose();
         }
     }
 }
