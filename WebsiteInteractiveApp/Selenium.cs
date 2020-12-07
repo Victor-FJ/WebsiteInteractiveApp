@@ -98,9 +98,11 @@ namespace WebsiteInteractiveApp
                     actionfindsearchname.Perform();
                     searchName.SendKeys(Keys.Backspace);
                     searchName.SendKeys(Keys.Backspace);
+                    searchName.SendKeys(Keys.Backspace);
+                    searchName.SendKeys(Keys.Backspace);
                     if (allread == 0)
                     {
-                        searchName.SendKeys("rf");
+                        searchName.SendKeys("rf20");
                     }
 
                     if (allread == 1)
