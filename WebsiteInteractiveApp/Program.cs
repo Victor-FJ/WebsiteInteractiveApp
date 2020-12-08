@@ -15,7 +15,7 @@ namespace WebsiteInteractiveApp
                 ConsoleKey key = Console.ReadKey().Key;
                 if (key == ConsoleKey.Escape)
                     break;
-                Console.WriteLine("People are " + (driver.IsClassInSchool() ? "" : "not ") + "in school today");
+                driver.IsClassInSchool();
                 Console.WriteLine("\n");
             }
         }
